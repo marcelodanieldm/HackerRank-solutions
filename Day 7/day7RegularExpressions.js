@@ -8,6 +8,6 @@ function regexVar() {
     /*
      * Do not remove the return statement
      */
-    let regex = /^([a,e,i,o,u])(.*)\1$/;
+    let re = /^([a,e,i,o,u])(.*)\1$/;
     return re;
 }
